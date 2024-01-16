@@ -1,0 +1,108 @@
+<html>
+  <head><style>
+    #HEAD {
+      height: 200px;
+      background-color: black;
+      background-image: blue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      
+    }
+    
+    .row {
+      display: flex;
+      width: 100%;
+    }
+    
+    .column {
+      flex: 15%;
+      height: 800px;
+    }
+
+    .center { 
+      background-color: pink; 
+      flex: 65%;
+    }
+
+    .b { 
+      background-color: burlywood; 
+      flex: 15%;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 1px;
+    }
+
+    li a {
+      display: block;
+      width: 100%;
+      padding: 3px 0;
+      background-color: orangered;
+      color: whitesmoke;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: cyan;
+    }
+
+    .circle {
+      width: 100px;
+      height: 100px;
+      background-image: url('https://cdn-icons-png.flaticon.com/512/3135/3135715.png'); 
+      background-size: cover;
+      border-radius: 100%;
+      position: absolute;
+      top: 40%;
+      left: 92%;
+      transform: translate(-50%, -50%);
+    
+    }
+
+    .bottom {
+      background-color: gray;
+      background-image:REd;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="HEAD">
+    <div>Front End Quiz 1</div>
+  </div>
+
+  <div class="row">
+    <div class="column r">
+      <ul>
+        <li><a href="https://www.google.com" target="_blank"> Page1 </a></li>
+        <li><a href="https://www.google.com" target="_blank"> Page2 </a></li>
+        <li><a href="https://www.google.com" target="_blank"> Page3 </a></li>
+        <li><a href="https://www.google.com" target="_blank"> Page4 </a></li>
+      </ul>
+    </div>
+    <div class="column center">&nbsp;
+      Body Page
+    </div>
+    
+    <div class="column b">&nbsp;
+      Right page
+      <div class="circle"></div>
+    </div>
+  </div>
+
+  <div class="bottom">Footer</div>
+
+
+</body></html>
